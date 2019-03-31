@@ -39,7 +39,7 @@ function buildCharts(sample) {
       x: bubbleIds,
       y: bubbleSampleValues,
       text: bubbleLabels,
-      marker: {color: bubbleIds, colorscale: 'Rainbow', size: bubbleSampleValues}
+      marker: {color: bubbleIds, colorscale: 'Viridis', size: bubbleSampleValues}
     };
 
     var bblData = [bubbleChartData];
